@@ -1,7 +1,7 @@
 {application, folgian,
  [
-  {description, ""},
-  {vsn, "1"},
+  {description, "Request tracing middleware"},
+  {vsn, "0.0.1"},
   {registered, []},
   {applications, [
                   kernel,

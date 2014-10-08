@@ -1,11 +1,14 @@
 {application, folgian,
  [
   {description, "Request tracing middleware"},
-  {vsn, "0.0.1"},
+  {vsn, "0.0.2"},
   {registered, []},
   {applications, [
                   kernel,
-                  stdlib
+                  stdlib,
+                  cowboy,
+                  lager,
+                  uuid
                  ]},
   {env, []}
  ]}.
